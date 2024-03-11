@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="#" method="post">        
+        <!--  -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba Aqui Su Nombre" maxlength="15" minlength="3" value="Nicolas"  >
+        <br>
+        <!--  -->
+        <label for="mail">Mail:</label>
+        <input type="email" readonly id="mail" name="mail" placeholder="Escriba Aqui Su Mail" value="nicolas.fernandez4@bue.edu.ar"  >
+        <br>
+        <!--  -->
+        <label for="password" class="labelRegistro">Password:</label>
+        <input type="password" pattern="" class="inputRegistro">
+        <br>
+        <!--  -->
+        <label for="altura" class="labelRegistro">Altura:</label>
+        <input type="number" required max="240" min="20" id="altura" >
+        <hr>
+        
+        <input type="date" >
+
+        <input type="file" accept="" >
+
+        <input type="range" > 
+
+        <hr>
+        <h2>CheckBox</h2>
+        <input type="checkbox" name="opcion" value="1" >Fiat
+        <input type="checkbox" name="opcion" value="2" >Ford
+        <input type="checkbox" name="opcion" value="3" >Renault
+        <input type="checkbox" name="opcion" value="4" >Chevrolet
+
+        <h2>Radio Buton</h2>
+        <input type="radio" name="opcion" value="1" >Fiat
+        <input type="radio" name="opcion" value="2" >Ford
+        <input type="radio" name="opcion" value="3" >Renault
+        <input type="radio" name="opcion" value="4" >Chevrolet
+        
+        <hr>
+        <fieldset>
+            <legend>Datos Del Usuario</legend>
+            <label>Colegio</label>
+            <input type="text" id="colegio">
+        </fieldset>
+        <hr>
+
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" rows="10" cols="40"></textarea>
+
+        <hr>
+        <h3>Provincias</h3>
+        <select >
+                <option value="1">Cordoba</option>
+                <option value="2" selected >Salta</option>
+                <option value="3">Mendoza</option>
+        </select>
+
+        <h4>Autos</h4>
+        <select>
+            <optgroup label="nacionales">
+                        <option>Fiat</option>
+                        <option>Ford</option>
+            </optgroup>
+            <optgroup label="Importados">
+                        <option>BMW</option>
+                        <option>Mercedes</option>
+            </optgroup>
+
+        </select>
+
+        <input type="submit" value="Enviar" class="botonEnviar">
+    </form>
+    
+
+    <!-- input -->
+
+</body>
+</html>
