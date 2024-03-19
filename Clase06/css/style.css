@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+/*Selectores de etiqueta*/
+body
+{
+    background-color: gray;
+}
+
+p
+{
+    color: white;
+    font-size: 25px;
+}
+
+h1{
+    color:blanchedalmond;
+}
+
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+}
+
+/*
+h1,p,h2{
+    color:yellow;
+}
+*/
+
+
+
+/*selectores de ID*/
+#textoAzul{
+    color: blue;
+}
+
+#textoRojo{
+    color: red;
+}
+
+#textoBlanco{
+    color: white;
+}
+
+/*Selectores de clase*/
+
+.textoAmarillo{
+    color: yellow;
+}
+
+.textoGrande{
+    font-size: 30px;
+}
+
+
+.textoMediano{
+    font-size: 20px;
+}
+
+
+h3{
+    color: red;
+}
+
+.titulo{
+    color:blue;
+}
+
+#titulo{
+    color :yellow;
+}
