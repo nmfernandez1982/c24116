@@ -1,0 +1,56 @@
+/*Variables globales*/
+
+:root
+{
+--color-success:green;
+--color-danger:red;
+--color-caution:blue;
+/*--tamaño-fuente:20px;*/
+font-size: 20px;
+}
+
+
+body
+{
+    background-color: var(--color-success);
+}
+
+h1,h2,h3{
+    color:white;
+}
+
+
+h1{
+    font-size: 0.5rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+#ejemploAbsoluto
+{
+    width: 200px;
+    height: 200px;
+    background-color: #3FBED3;
+    background-color:rgb(63, 190, 211);
+    background-color: hsl(189, 70, 54);
+    
+}
+
+
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
