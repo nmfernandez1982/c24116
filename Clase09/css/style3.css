@@ -1,0 +1,56 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: red;
+    transition: transform 1s ease;
+}
+
+
+
+/*translate*/
+
+/*
+.caja{transition: transform 1s ease;}
+.caja:hover{
+    transform: translate(20px,50px);
+}
+*/
+
+/*scale*/
+
+/*
+.caja:hover{
+    transform: scale(1.8);
+}
+*/
+
+
+/*rotate*/
+
+/*
+.caja:hover
+{
+    transform: rotate(45deg);
+}
+*/
+
+/*los 3 ejemplos juntos*/
+
+@keyframes cambioColor 
+{
+    0%{background-color: red;}
+    25%{background-color: orange;}
+    50%{background-color: pink;}
+    75%{background-color: blueviolet;}
+    100%{background-color: blue;}    
+}
+
+
+
+.caja:hover
+{    
+    transform: rotate(45deg)  scale(1.8) translate(20px,50px);
+    animation: cambioColor 5s infinite;
+}

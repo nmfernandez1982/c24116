@@ -1,0 +1,45 @@
+
+
+/*Selector agrupado con coma*/
+
+/*
+p,span,h1{
+    color: red;
+}
+
+.texto,#textoPrincipal,h1{
+    color: red;
+}
+*/
+
+/*Selector descendiente*/
+
+/*
+.texto{color: blue;}
+
+.texto p{color: red;}
+*/
+
+
+/*Hijo DIrecto*/
+/*
+div>p{
+    color: red;
+}
+
+span>p
+{
+    color: blue;
+}
+#textoAmarillo{color: yellow;}
+*/
+
+
+/*selector de hermanos*/
+
+/*
+div~p{color: red;}
+*/
+
+
+
