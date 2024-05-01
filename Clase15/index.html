@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+
+        <script>
+
+         var opc=3;
+
+        //opc=prompt("ingrese un valor: ");
+        //opc=Number(opc);
+        opc=parseInt(opc);    
+         switch(opc)
+         {
+            case 1:                   
+                //si opc vale 1
+                console.log("la variable vale 1");
+                break;
+            case 2:
+                //si opc vale 2
+                console.log("la variable vale 2");
+                break;
+            case 3:
+                //si opc vale 3
+                console.log("la variable vale 3");
+                break;
+            default:
+                //si opc vale otro dato
+                console.log("la variable vale otro dato");
+                break;
+         }
+
+        // alert("Hola mundo.....");
+
+
+        //iteraciones
+
+        //do while
+
+        //al menos se ejecuta 1 vez
+
+        var aux=1000;
+
+         do{
+            console.log("Se imprimio la linea "+aux);
+            //aux=aux+1;
+            aux++;
+         }while(aux<10);
+
+
+
+         aux=0;
+
+         var repeticion=prompt("Cantidad de veces: ");
+
+         //while
+
+         while(aux<repeticion)
+         {
+            console.log("Se imprimio con while"+aux);
+            aux++;
+         }
+
+         //for
+
+         var numeros=["Nicolas",1,8,true,false,null,undefined,9,"Hola Mundo"];
+
+         console.log(numeros);
+
+         console.log(numeros[2]);
+
+         console.log(numeros[5]);
+
+         var suma=numeros[2]+numeros[7];
+
+         console.log(suma);
+
+         for(x=0;x<numeros.length;x++)
+         {
+            console.log("EL valor del array en la pos.["+x+"]: "+numeros[x]);
+         }
+
+
+
+        </script>    
+    </body>
+</html>
