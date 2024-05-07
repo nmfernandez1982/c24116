@@ -21,8 +21,10 @@ var miSegundoAuto={
     tipo:'Cronos',
     modelo:'2021',
     cantCombustible:4,
+    
     //metodos
     detalleAuto: function(){ return "Marca: "+this.marca+" Tipo:"+this.tipo;},
+
     acelerar: function()
     {
         if(this.cantCombustible>0)
