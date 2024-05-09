@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos del Usuario</h1>
+    
+    <div id="user-info">
+
+    </div>
+  
+
+
+    <script>
+          fetch('https://randomuser.me/api/')
+          .then(response=>response.json())
+          .then(data=>
+            {
+                const usuario=data.results[0];
+                let nombre=usuario.name.first;
+                let apellido=usuario.name.last;
+                let genero=usuario.gender;
+
+                const userInfo=document.getElementById('user-info');
+                userInfo.innerHTML=`<p><strong>${nombre}</strong></p><br>
+                                    <p><strong>${apellido}</strong></p><br>
+                                    `;
+            })
+            .catch(error=>{
+                console.log("No se obtuvieron datos");}
+            );
+
+
+            
+
+
+
+
+          
+          
+          
+
+
+
+
+
+    </script>
+</body>
+</html>
