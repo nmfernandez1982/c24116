@@ -1,4 +1,4 @@
-package prueba108;
+package peliculasCac2024;
 
 import java.sql.*;
 import java.util.ArrayList;

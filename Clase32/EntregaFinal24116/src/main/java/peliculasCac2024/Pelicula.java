@@ -1,4 +1,4 @@
-package prueba108;
+package peliculasCac2024;
 
 import java.time.LocalDate;
 
@@ -18,8 +18,7 @@ public class Pelicula {
     // Constructor con todos los atributos
     public Pelicula(int id, String titulo, String genero, String duracion, String director, String reparto, String sinopsis, String imagen) {
         this.id = id;
-        this.titulo = titulo;
-       
+        this.titulo = titulo;       
         this.genero = genero;
         this.duracion = duracion;
         this.director = director;
